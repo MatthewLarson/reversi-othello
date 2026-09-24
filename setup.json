@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 2,
+  "sceneId": "reversi-othello",
+  "name": "Reversi / Othello",
+  "environment": {
+    "tableSurfaceColor": "#8b5e34",
+    "tableSurfaceTextureAssetId": null,
+    "ambientColor": "#b8bdc2",
+    "fogEnabled": false,
+    "fogColor": "#000000",
+    "fogDensity": 0,
+    "skyboxAssetId": null,
+    "skyboxRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "skyboxSpin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "objects": [],
+  "zones": [],
+  "snapPoints": [],
+  "seatZones": [
+    {
+      "seat": "red",
+      "zones": [
+        {
+          "id": "seat-zone-red-0",
+          "position": {
+            "x": 0,
+            "y": 0.05,
+            "z": 1.14
+          },
+          "size": {
+            "x": 1.6,
+            "z": 0.5
+          },
+          "rotationY": 180
+        }
+      ],
+      "label": {
+        "position": {
+          "x": 0,
+          "y": 0.05,
+          "z": 1.59
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 180,
+        "fontSize": 0.3
+      }
+    },
+    {
+      "seat": "blue",
+      "zones": [
+        {
+          "id": "seat-zone-blue-0",
+          "position": {
+            "x": -1.785,
+            "y": 0.05,
+            "z": 1.14
+          },
+          "size": {
+            "x": 1.6,
+            "z": 0.5
+          },
+          "rotationY": 180
+        }
+      ],
+      "label": {
+        "position": {
+          "x": -1.785,
+          "y": 0.05,
+          "z": 1.59
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 180,
+        "fontSize": 0.3
+      }
+    },
+    {
+      "seat": "green",
+      "zones": [
+        {
+          "id": "seat-zone-green-0",
+          "position": {
+            "x": -2.43,
+            "y": 0.05,
+            "z": 0
+          },
+          "size": {
+            "x": 1.6,
+            "z": 0.5
+          },
+          "rotationY": 90
+        }
+      ],
+      "label": {
+        "position": {
+          "x": -2.88,
+          "y": 0.05,
+          "z": 0
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 90,
+        "fontSize": 0.3
+      }
+    },
+    {
+      "seat": "yellow",
+      "zones": [
+        {
+          "id": "seat-zone-yellow-0",
+          "position": {
+            "x": -1.785,
+            "y": 0.05,
+            "z": -1.14
+          },
+          "size": {
+            "x": 1.6,
+            "z": 0.5
+          },
+          "rotationY": 0
+        }
+      ],
+      "label": {
+        "position": {
+          "x": -1.785,
+          "y": 0.05,
+          "z": -1.59
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 0,
+        "fontSize": 0.3
+      }
+    },
+    {
+      "seat": "purple",
+      "zones": [
+        {
+          "id": "seat-zone-purple-0",
+          "position": {
+            "x": 0,
+            "y": 0.05,
+            "z": -1.14
+          },
+          "size": {
+            "x": 1.6,
+            "z": 0.5
+          },
+          "rotationY": 0
+        }
+      ],
+      "label": {
+        "position": {
+          "x": 0,
+          "y": 0.05,
+          "z": -1.59
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 0,
+        "fontSize": 0.3
+      }
+    },
+    {
+      "seat": "orange",
+      "zones": [
+        {
+          "id": "seat-zone-orange-0",
+          "position": {
+            "x": 1.785,
+            "y": 0.05,
+            "z": -1.14
+          },
+          "size": {
+            "x": 1.6,
+            "z": 0.5
+          },
+          "rotationY": 0
+        }
+      ],
+      "label": {
+        "position": {
+          "x": 1.785,
+          "y": 0.05,
+          "z": -1.59
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 0,
+        "fontSize": 0.3
+      }
+    },
+    {
+      "seat": "pink",
+      "zones": [
+        {
+          "id": "seat-zone-pink-0",
+          "position": {
+            "x": 2.43,
+            "y": 0.05,
+            "z": 0
+          },
+          "size": {
+            "x": 1.6,
+            "z": 0.5
+          },
+          "rotationY": 270
+        }
+      ],
+      "label": {
+        "position": {
+          "x": 2.88,
+          "y": 0.05,
+          "z": 0
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 270,
+        "fontSize": 0.3
+      }
+    },
+    {
+      "seat": "cyan",
+      "zones": [
+        {
+          "id": "seat-zone-cyan-0",
+          "position": {
+            "x": 1.785,
+            "y": 0.05,
+            "z": 1.14
+          },
+          "size": {
+            "x": 1.6,
+            "z": 0.5
+          },
+          "rotationY": 180
+        }
+      ],
+      "label": {
+        "position": {
+          "x": 1.785,
+          "y": 0.05,
+          "z": 1.59
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 180,
+        "fontSize": 0.3
+      }
+    }
+  ],
+  "packRefs": [
+    {
+      "role": "table",
+      "packId": "modern-table",
+      "version": "0.1.2",
+      "commitSha": "98914675afe6d275c07a34fd75f7e8910ddb6a89"
+    },
+    {
+      "role": "room",
+      "packId": "modern-room",
+      "version": "1.0.1",
+      "commitSha": "a8ca576bccf6a51814e2c041972906924f020e99"
+    }
+  ]
+}
