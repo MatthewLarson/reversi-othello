@@ -1,8 +1,12 @@
 # Reversi / Othello
 
-**Reversi / Othello** is a game for [DiceyTable](https://diceytable.com) — a free physics tabletop you play in your browser with friends, with no download required.
+**Reversi / Othello** is an Abstract Strategy game for [DiceyTable](https://diceytable.com) — a free physics tabletop you play in your browser with friends, with no download required.
 
 **[Play Reversi / Othello on DiceyTable](https://diceytable.com/games/reversi-othello)**
+
+---
+
+Reversi / Othello
 
 ---
 
