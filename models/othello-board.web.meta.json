@@ -1,0 +1,23 @@
+{
+  "kind": "board",
+  "material": "wood",
+  "materialSlots": {
+    "OTH_Rosewood": "mat-5c0ba019-9cbe-4038-bea6-2789e5ef7088",
+    "OTH_Burl": "mat-a68b548b-5299-4adf-924e-6e5d83a5e3f8",
+    "OTH_Felt": "mat-dc40e561-7788-4aba-b758-5efff3c69d22",
+    "BGM_Brass": "mat-78770d58-dbea-493b-ad29-199d939acfcf"
+  },
+  "friction": 0.6,
+  "restitution": 0.25,
+  "collider": {
+    "mode": "custom",
+    "entries": [
+      {
+        "id": "collider-1",
+        "shape": "mesh",
+        "source": "baked",
+        "bakedPath": "models/othello-board.collider.glb"
+      }
+    ]
+  }
+}

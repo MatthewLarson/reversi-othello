@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "reversi-othello",
   "name": "Reversi / Othello",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -14,7 +14,26 @@
     "media/screenshot-0.webp",
     "media/screenshot-1.webp",
     "media/screenshot-2.webp",
-    "media/screenshot-3.webp"
+    "media/screenshot-3.webp",
+    "models/othello-board.collider.glb",
+    "models/othello-board.web.glb",
+    "models/othello-board.web.meta.json",
+    "models/othello-disc.web.glb",
+    "models/othello-disc.web.meta.json",
+    "textures/othello-board-web/oth-burl-basecolor-7e16b23f.webp",
+    "textures/othello-board-web/oth-burl-normal-7d35e89c.webp",
+    "textures/othello-board-web/oth-burl-roughness-2080baaa.webp",
+    "textures/othello-board-web/oth-felt-basecolor-027a65ea.webp",
+    "textures/othello-board-web/oth-rosewood-basecolor-770f7157.webp",
+    "textures/othello-board-web/oth-rosewood-normal-c9569e13.webp",
+    "textures/othello-board-web/oth-rosewood-roughness-1a567d47.webp",
+    "textures/othello-board-web/redfelt-normal-a6c44db8.webp",
+    "textures/othello-disc-web/bgm-leatherblack-basecolor-b095b64c.webp",
+    "textures/othello-disc-web/bgm-leatherwhite-basecolor-c4c97943.webp",
+    "textures/othello-disc-web/bl-leather-metallic-jpg-bl-leather-roughness-jpg-8b453286.webp",
+    "textures/othello-disc-web/bl-leather-normal-278c6c8e.webp",
+    "textures/othello-disc-web/substance-leather-calf-grain-metallic-jpg-substance-leather-calf-grain-roughness-jpg-e4d3a42d.webp",
+    "textures/othello-disc-web/substance-leather-calf-grain-normal-3fc76f0c.webp"
   ],
   "compatibility": {
     "engine": ">=0.1 <1.0"
@@ -72,6 +91,51 @@
       "attestation": {
         "termsVersion": "2026-09-07.1",
         "acceptedAt": "2026-09-24T21:44:03.308Z",
+        "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-0569e3be-20c2-43a9-8180-f2bd67cbb612",
+      "paths": [
+        "models/othello-board.collider.glb",
+        "models/othello-board.web.glb",
+        "models/othello-board.web.meta.json",
+        "textures/othello-board-web/oth-burl-basecolor-7e16b23f.webp",
+        "textures/othello-board-web/oth-burl-normal-7d35e89c.webp",
+        "textures/othello-board-web/oth-burl-roughness-2080baaa.webp",
+        "textures/othello-board-web/oth-felt-basecolor-027a65ea.webp",
+        "textures/othello-board-web/oth-rosewood-basecolor-770f7157.webp",
+        "textures/othello-board-web/oth-rosewood-normal-c9569e13.webp",
+        "textures/othello-board-web/oth-rosewood-roughness-1a567d47.webp",
+        "textures/othello-board-web/redfelt-normal-a6c44db8.webp"
+      ],
+      "origin": "own-work",
+      "title": "Othello Board",
+      "recordedAt": "2026-09-24T21:50:59.660Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-24T21:50:59.660Z",
+        "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-ed45798a-98ea-4c5b-a638-091002db4324",
+      "paths": [
+        "models/othello-disc.web.glb",
+        "models/othello-disc.web.meta.json",
+        "textures/othello-disc-web/bgm-leatherblack-basecolor-b095b64c.webp",
+        "textures/othello-disc-web/bgm-leatherwhite-basecolor-c4c97943.webp",
+        "textures/othello-disc-web/bl-leather-metallic-jpg-bl-leather-roughness-jpg-8b453286.webp",
+        "textures/othello-disc-web/bl-leather-normal-278c6c8e.webp",
+        "textures/othello-disc-web/substance-leather-calf-grain-metallic-jpg-substance-leather-calf-grain-roughness-jpg-e4d3a42d.webp",
+        "textures/othello-disc-web/substance-leather-calf-grain-normal-3fc76f0c.webp"
+      ],
+      "origin": "own-work",
+      "title": "Othello Disk",
+      "recordedAt": "2026-09-24T21:53:59.843Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-24T21:53:59.843Z",
         "signedName": "Matt Larson"
       }
     }
