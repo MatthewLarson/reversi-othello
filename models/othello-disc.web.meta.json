@@ -1,0 +1,28 @@
+{
+  "kind": "token",
+  "material": "metal",
+  "spawnHeight": 1.868,
+  "materialSlots": {
+    "BGM_LeatherWhite": "mat-b0aa7606-e7f5-49e3-9acc-2e01256a8fe7",
+    "BGM_Brass": "mat-da4d0c0e-099c-463c-9d4f-8b9fe5967f26",
+    "BGM_LeatherBlack": "mat-eb4ff5d1-77ca-48a8-9c8a-402bbd27176e"
+  },
+  "originAuthored": true,
+  "mass": 0.26,
+  "friction": 0.6,
+  "restitution": 0.4,
+  "linearDamping": 0.6,
+  "angularDamping": 0.6,
+  "collider": {
+    "mode": "custom",
+    "entries": [
+      {
+        "id": "collider-1",
+        "shape": "cylinder",
+        "radius": 0.05666666666666667,
+        "height": 0.029999999329447746,
+        "axis": 1
+      }
+    ]
+  }
+}

@@ -2,6 +2,48 @@
   "version": 1,
   "rendererVersion": 1,
   "entries": {
+    "@materials/mat-5c0ba019-9cbe-4038-bea6-2789e5ef7088": {
+      "inputHash": "f068c09ef791cf71",
+      "file": "thumbnails/@materials/mat-5c0ba019-9cbe-4038-bea6-2789e5ef7088.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-78770d58-dbea-493b-ad29-199d939acfcf": {
+      "inputHash": "bf84f9e54f4fcb90",
+      "file": "thumbnails/@materials/mat-78770d58-dbea-493b-ad29-199d939acfcf.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-a68b548b-5299-4adf-924e-6e5d83a5e3f8": {
+      "inputHash": "8d4352e093db8139",
+      "file": "thumbnails/@materials/mat-a68b548b-5299-4adf-924e-6e5d83a5e3f8.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-b0aa7606-e7f5-49e3-9acc-2e01256a8fe7": {
+      "inputHash": "8380d4bdd6de6699",
+      "file": "thumbnails/@materials/mat-b0aa7606-e7f5-49e3-9acc-2e01256a8fe7.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-da4d0c0e-099c-463c-9d4f-8b9fe5967f26": {
+      "inputHash": "bf84f9e54f4fcb90",
+      "file": "thumbnails/@materials/mat-da4d0c0e-099c-463c-9d4f-8b9fe5967f26.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-dc40e561-7788-4aba-b758-5efff3c69d22": {
+      "inputHash": "9e4da02a6fc2e2b4",
+      "file": "thumbnails/@materials/mat-dc40e561-7788-4aba-b758-5efff3c69d22.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-eb4ff5d1-77ca-48a8-9c8a-402bbd27176e": {
+      "inputHash": "13e6ee187570979d",
+      "file": "thumbnails/@materials/mat-eb4ff5d1-77ca-48a8-9c8a-402bbd27176e.webp",
+      "width": 256,
+      "height": 256
+    },
     "media/cover-thumb.webp": {
       "inputHash": "5fd9bab4d64049bc",
       "file": "thumbnails/media/cover-thumb.webp.webp",
@@ -37,6 +79,114 @@
       "file": "thumbnails/media/screenshot-3.webp.webp",
       "width": 256,
       "height": 144
+    },
+    "models/othello-board.web.glb": {
+      "inputHash": "933b48d5ae0cd0c0",
+      "file": "thumbnails/models/othello-board.web.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/othello-disc.web.glb": {
+      "inputHash": "89878e1c0e450bc7",
+      "file": "thumbnails/models/othello-disc.web.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/othello-board.web.glb": {
+      "inputHash": "14981f1d968d44d8",
+      "file": "thumbnails/originals/othello-board.web.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/othello-disc.web.glb": {
+      "inputHash": "6f2f1220967f897d",
+      "file": "thumbnails/originals/othello-disc.web.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-board-web/oth-burl-basecolor-7e16b23f.webp": {
+      "inputHash": "c7d7ebd3af983ed5",
+      "file": "thumbnails/textures/othello-board-web/oth-burl-basecolor-7e16b23f.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-board-web/oth-burl-normal-7d35e89c.webp": {
+      "inputHash": "3ab6405c994d10ee",
+      "file": "thumbnails/textures/othello-board-web/oth-burl-normal-7d35e89c.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-board-web/oth-burl-roughness-2080baaa.webp": {
+      "inputHash": "30f84bd87518ee0d",
+      "file": "thumbnails/textures/othello-board-web/oth-burl-roughness-2080baaa.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-board-web/oth-felt-basecolor-027a65ea.webp": {
+      "inputHash": "48c5a813d63a4820",
+      "file": "thumbnails/textures/othello-board-web/oth-felt-basecolor-027a65ea.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-board-web/oth-rosewood-basecolor-770f7157.webp": {
+      "inputHash": "12a5abb41059911d",
+      "file": "thumbnails/textures/othello-board-web/oth-rosewood-basecolor-770f7157.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-board-web/oth-rosewood-normal-c9569e13.webp": {
+      "inputHash": "029ffa0da15157fe",
+      "file": "thumbnails/textures/othello-board-web/oth-rosewood-normal-c9569e13.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-board-web/oth-rosewood-roughness-1a567d47.webp": {
+      "inputHash": "5d56ea1c52784453",
+      "file": "thumbnails/textures/othello-board-web/oth-rosewood-roughness-1a567d47.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-board-web/redfelt-normal-a6c44db8.webp": {
+      "inputHash": "f57e0f70bc1636a9",
+      "file": "thumbnails/textures/othello-board-web/redfelt-normal-a6c44db8.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-disc-web/bgm-leatherblack-basecolor-b095b64c.webp": {
+      "inputHash": "c65b38df2e210bb0",
+      "file": "thumbnails/textures/othello-disc-web/bgm-leatherblack-basecolor-b095b64c.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-disc-web/bgm-leatherwhite-basecolor-c4c97943.webp": {
+      "inputHash": "d2c85da4d1d6de90",
+      "file": "thumbnails/textures/othello-disc-web/bgm-leatherwhite-basecolor-c4c97943.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-disc-web/bl-leather-metallic-jpg-bl-leather-roughness-jpg-8b453286.webp": {
+      "inputHash": "c1570782444a1943",
+      "file": "thumbnails/textures/othello-disc-web/bl-leather-metallic-jpg-bl-leather-roughness-jpg-8b453286.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-disc-web/bl-leather-normal-278c6c8e.webp": {
+      "inputHash": "fb3c2bc7b04610f0",
+      "file": "thumbnails/textures/othello-disc-web/bl-leather-normal-278c6c8e.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-disc-web/substance-leather-calf-grain-metallic-jpg-substance-leather-calf-grain-roughness-jpg-e4d3a42d.webp": {
+      "inputHash": "ae7d6562cd0d8a86",
+      "file": "thumbnails/textures/othello-disc-web/substance-leather-calf-grain-metallic-jpg-substance-leather-calf-grain-roughness-jpg-e4d3a42d.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/othello-disc-web/substance-leather-calf-grain-normal-3fc76f0c.webp": {
+      "inputHash": "7e129a945b86bb04",
+      "file": "thumbnails/textures/othello-disc-web/substance-leather-calf-grain-normal-3fc76f0c.webp.webp",
+      "width": 256,
+      "height": 256
     }
   }
 }
