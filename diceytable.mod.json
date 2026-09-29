@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "reversi-othello",
   "name": "Reversi / Othello",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -301,6 +301,12 @@
       "id": "link",
       "title": "Rules for Reversi and Othello",
       "url": "https://www.mastersofgames.com/rules/reversi-othello-rules.htm?srsltid=AU7gw4XRHJnls3eB4uJCEMXDFlZkWoWUueMv74JblOBRR6fKwPvcUD_b"
+    },
+    {
+      "kind": "markdown",
+      "id": "rules",
+      "title": "Reversi / Othello Rules",
+      "path": "rules/rules.md"
     }
   ]
 }
