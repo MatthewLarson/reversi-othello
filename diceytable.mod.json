@@ -61,8 +61,8 @@
   ],
   "diceEnabled": false,
   "slug": "reversi-othello",
-  "summary": "Reversi / Othello",
-  "description": "Reversi / Othello",
+  "summary": "Flip your opponent’s discs, control the board, and finish with the most pieces to win.",
+  "description": "## Play Reversi Online on DiceyTable\n\n\\\nReversi is a fast-moving **two-player strategy game** where the board can change dramatically with a single move. Place your discs to surround your opponent’s pieces, then flip every captured disc to your color. What starts as a simple battle for space quickly becomes a contest of positioning, timing, and control as both players fight to dominate the board.\n\nThe rules are easy to learn, but **Reversi rewards careful strategy**. Corners are especially valuable because they can never be flipped, while moves along the edges can help secure large sections of the board. Every placement matters, and an early lead can disappear surprisingly quickly if your opponent finds the right opening. The best move isn’t always the one that flips the most discs right now—it’s the one that gives you control when the board fills up.\n\nPlay **Reversi online on [DiceyTable.com](http://DiceyTable.com)** and challenge a friend to a classic game of tactical back-and-forth. With quick matches, simple rules, and plenty of strategic depth, Reversi is perfect for casual players and competitive thinkers alike. Trap your opponent, take the corners, flip the board in your favor, and finish the game with more discs than your rival.",
   "category": "abstract-strategy",
   "players": {
     "min": 2,
@@ -284,6 +284,23 @@
       "title": "Reversi Gameplay 3",
       "alt": "Reversi Gameplay 3",
       "kind": "gameplay"
+    }
+  ],
+  "rules": [
+    {
+      "kind": "video",
+      "id": "video",
+      "title": "How to Play Reversi",
+      "video": {
+        "provider": "youtube",
+        "id": "4XdyAZhzJW8"
+      }
+    },
+    {
+      "kind": "link",
+      "id": "link",
+      "title": "Rules for Reversi and Othello",
+      "url": "https://www.mastersofgames.com/rules/reversi-othello-rules.htm?srsltid=AU7gw4XRHJnls3eB4uJCEMXDFlZkWoWUueMv74JblOBRR6fKwPvcUD_b"
     }
   ]
 }

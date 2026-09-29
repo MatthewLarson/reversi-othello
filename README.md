@@ -6,7 +6,14 @@
 
 ---
 
-Reversi / Othello
+## Play Reversi Online on DiceyTable
+
+\
+Reversi is a fast-moving **two-player strategy game** where the board can change dramatically with a single move. Place your discs to surround your opponent’s pieces, then flip every captured disc to your color. What starts as a simple battle for space quickly becomes a contest of positioning, timing, and control as both players fight to dominate the board.
+
+The rules are easy to learn, but **Reversi rewards careful strategy**. Corners are especially valuable because they can never be flipped, while moves along the edges can help secure large sections of the board. Every placement matters, and an early lead can disappear surprisingly quickly if your opponent finds the right opening. The best move isn’t always the one that flips the most discs right now—it’s the one that gives you control when the board fills up.
+
+Play **Reversi online on [DiceyTable.com](http://DiceyTable.com)** and challenge a friend to a classic game of tactical back-and-forth. With quick matches, simple rules, and plenty of strategic depth, Reversi is perfect for casual players and competitive thinkers alike. Trap your opponent, take the corners, flip the board in your favor, and finish the game with more discs than your rival.
 
 ---
 
