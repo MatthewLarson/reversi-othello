@@ -45,13 +45,13 @@
       "height": 256
     },
     "media/cover-thumb.webp": {
-      "inputHash": "5fd9bab4d64049bc",
+      "inputHash": "b0c02ccf1cd03ff9",
       "file": "thumbnails/media/cover-thumb.webp.webp",
       "width": 256,
       "height": 256
     },
     "media/cover.webp": {
-      "inputHash": "063d22e705f86b77",
+      "inputHash": "6177c0084c6a1ae9",
       "file": "thumbnails/media/cover.webp.webp",
       "width": 256,
       "height": 256
@@ -77,6 +77,42 @@
     "media/screenshot-3.webp": {
       "inputHash": "d50e79ac6ad250de",
       "file": "thumbnails/media/screenshot-3.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-4.webp": {
+      "inputHash": "04d7d7c5ca4bdbda",
+      "file": "thumbnails/media/screenshot-4.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-5.webp": {
+      "inputHash": "6f7b8c0a9642de17",
+      "file": "thumbnails/media/screenshot-5.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-6.webp": {
+      "inputHash": "2539eacd1c3bcb82",
+      "file": "thumbnails/media/screenshot-6.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-7.webp": {
+      "inputHash": "0eaa2fa7d5c228ca",
+      "file": "thumbnails/media/screenshot-7.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-8.webp": {
+      "inputHash": "5ecfa79b911854c8",
+      "file": "thumbnails/media/screenshot-8.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-9.webp": {
+      "inputHash": "11d54e3dd66835e7",
+      "file": "thumbnails/media/screenshot-9.webp.webp",
       "width": 256,
       "height": 144
     },

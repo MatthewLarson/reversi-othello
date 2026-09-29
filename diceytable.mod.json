@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "reversi-othello",
   "name": "Reversi / Othello",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -15,6 +15,12 @@
     "media/screenshot-1.webp",
     "media/screenshot-2.webp",
     "media/screenshot-3.webp",
+    "media/screenshot-4.webp",
+    "media/screenshot-5.webp",
+    "media/screenshot-6.webp",
+    "media/screenshot-7.webp",
+    "media/screenshot-8.webp",
+    "media/screenshot-9.webp",
     "models/othello-board.collider.glb",
     "models/othello-board.web.glb",
     "models/othello-board.web.meta.json",
@@ -64,20 +70,6 @@
   },
   "coverImage": "media/cover.webp",
   "credits": [
-    {
-      "id": "credit-b38bec2e-81ad-4b02-96c1-a2d587ee6271",
-      "paths": [
-        "media/cover-thumb.webp",
-        "media/cover.webp"
-      ],
-      "origin": "own-work",
-      "recordedAt": "2026-09-24T21:43:30.512Z",
-      "attestation": {
-        "termsVersion": "2026-09-07.1",
-        "acceptedAt": "2026-09-24T21:43:30.512Z",
-        "signedName": "Matt Larson"
-      }
-    },
     {
       "id": "credit-939f5b1d-2252-4b24-8b40-096dc308d726",
       "paths": [
@@ -138,9 +130,77 @@
         "acceptedAt": "2026-09-24T21:53:59.843Z",
         "signedName": "Matt Larson"
       }
+    },
+    {
+      "id": "credit-71ee73ee-86b3-41f6-b295-0589a2dd35f2",
+      "paths": [
+        "media/cover-thumb.webp",
+        "media/cover.webp"
+      ],
+      "origin": "own-work",
+      "recordedAt": "2026-09-29T14:45:18.686Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-29T14:45:18.686Z",
+        "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-6814ac3c-8326-46e7-84e6-16f1aac69e5e",
+      "paths": [
+        "media/screenshot-4.webp",
+        "media/screenshot-5.webp",
+        "media/screenshot-6.webp",
+        "media/screenshot-7.webp",
+        "media/screenshot-8.webp",
+        "media/screenshot-9.webp"
+      ],
+      "origin": "own-work",
+      "recordedAt": "2026-09-29T14:46:14.195Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-29T14:46:14.195Z",
+        "signedName": "Matt Larson"
+      }
     }
   ],
   "screenshots": [
+    {
+      "path": "media/screenshot-4.webp",
+      "crop": {
+        "x": 0,
+        "y": 0.0002656748140275611,
+        "w": 1,
+        "h": 0.9994686503719449
+      },
+      "title": "Reversi - Quiet Strategy. Ruthless Turns.",
+      "alt": "Reversi - Quiet Strategy. Ruthless Turns.",
+      "kind": "marketing"
+    },
+    {
+      "path": "media/screenshot-6.webp",
+      "crop": {
+        "x": 0,
+        "y": 0.0002656748140275611,
+        "w": 1,
+        "h": 0.9994686503719449
+      },
+      "title": "Reversi - Every Flip Changes Everything",
+      "alt": "Reversi - Every Flip Changes Everything",
+      "kind": "marketing"
+    },
+    {
+      "path": "media/screenshot-5.webp",
+      "crop": {
+        "x": 0,
+        "y": 0.0002656748140275611,
+        "w": 1,
+        "h": 0.9994686503719449
+      },
+      "title": "Reversi - Trap. Flip. Control.",
+      "alt": "Reversi - Trap. Flip. Control.",
+      "kind": "marketing"
+    },
     {
       "path": "media/screenshot-0.webp",
       "crop": {
@@ -188,6 +248,42 @@
       "title": "Reversi - Board",
       "alt": "Reversi - Board",
       "kind": "component"
+    },
+    {
+      "path": "media/screenshot-7.webp",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 0.8862907483128439,
+        "h": 0.9735562989159547
+      },
+      "title": "Reversi Gameplay 1",
+      "alt": "Reversi Gameplay 1",
+      "kind": "gameplay"
+    },
+    {
+      "path": "media/screenshot-8.webp",
+      "crop": {
+        "x": 0.05410367816153714,
+        "y": 0,
+        "w": 0.9103641456582633,
+        "h": 1
+      },
+      "title": "Reversi Gameplay 2",
+      "alt": "Reversi Gameplay 2",
+      "kind": "gameplay"
+    },
+    {
+      "path": "media/screenshot-9.webp",
+      "crop": {
+        "x": 0.05410367816153714,
+        "y": 0,
+        "w": 0.9103641456582633,
+        "h": 1
+      },
+      "title": "Reversi Gameplay 3",
+      "alt": "Reversi Gameplay 3",
+      "kind": "gameplay"
     }
   ]
 }
