@@ -2,13 +2,16 @@
   "schemaVersion": "1.0",
   "id": "reversi-othello",
   "name": "Reversi / Othello",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
     "script": "scripts/main.js"
   },
   "assets": [
+    "ai/othello-net-easy.onnx",
+    "ai/othello-net-hard.onnx",
+    "ai/othello-net-medium.onnx",
     "media/cover-thumb.webp",
     "media/cover.webp",
     "media/screenshot-0.webp",
@@ -162,6 +165,32 @@
         "acceptedAt": "2026-09-29T14:46:14.195Z",
         "signedName": "Matt Larson"
       }
+    },
+    {
+      "id": "credit-aeb9cfa3-0b96-4908-b97d-ea16f67cba9e",
+      "paths": [
+        "ai/othello-net-easy.onnx",
+        "ai/othello-net-medium.onnx",
+        "ai/othello-net-hard.onnx"
+      ],
+      "origin": "own-work",
+      "recordedAt": "2026-10-03T22:36:46.574Z",
+      "aiAttestation": {
+        "termsVersion": "2026-09-07.1",
+        "agentSessionId": "ca43cd66-5412-4e8f-85db-56eb35079f6d",
+        "client": "claude-code 2.1.286",
+        "attestedAt": "2026-10-03T22:36:46.574Z",
+        "review": {
+          "reviewedAt": "2026-10-03T22:36:56.307Z",
+          "signedName": "Matt Larson",
+          "termsVersion": "2026-09-07.1"
+        }
+      },
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-10-03T22:36:56.307Z",
+        "signedName": "Matt Larson"
+      }
     }
   ],
   "screenshots": [
@@ -312,11 +341,190 @@
   "variants": [
     {
       "id": "standard",
-      "name": "Unscripted"
+      "name": "Unscripted",
+      "description": "Played by hand: move and flip the discs yourselves.",
+      "scripts": false
     },
     {
       "id": "scripted",
-      "name": "Scripted"
+      "name": "Scripted",
+      "description": "Only legal moves count, discs flip themselves, the score is kept — and you can play against bots."
+    }
+  ],
+  "bots": [
+    {
+      "id": "minimax",
+      "label": "Minimax",
+      "kind": "scripted",
+      "handler": "minimax",
+      "difficulties": [
+        {
+          "id": "easy",
+          "label": "Easy",
+          "description": "Looks two moves ahead."
+        },
+        {
+          "id": "normal",
+          "label": "Normal",
+          "description": "Looks four moves ahead."
+        },
+        {
+          "id": "hard",
+          "label": "Hard",
+          "description": "Looks six moves ahead. The strongest opponent here."
+        }
+      ],
+      "defaultDifficulty": "normal",
+      "description": "Reads ahead and values corners, edges and having moves to make. Runs on any device."
+    },
+    {
+      "id": "othello-ai",
+      "label": "Othello AI",
+      "kind": "ai",
+      "modelId": "othello-net-hard",
+      "fallbackBotId": "minimax",
+      "handler": "othello-ai",
+      "difficulties": [
+        {
+          "id": "easy",
+          "label": "Easy",
+          "description": "An early network that barely looks ahead. Good for learning the game."
+        },
+        {
+          "id": "medium",
+          "label": "Medium",
+          "description": "Beats a disc-grabbing beginner most games."
+        },
+        {
+          "id": "hard",
+          "label": "Hard",
+          "description": "The best trained network, searching 64 lines a move."
+        }
+      ],
+      "defaultDifficulty": "medium",
+      "description": "Neural-network opponents trained by self-play. On a device that cannot run the model, the host can swap in Minimax."
+    }
+  ],
+  "aiModels": [
+    {
+      "id": "othello-net-easy",
+      "label": "Othello net (easy)",
+      "path": "ai/othello-net-easy.onnx",
+      "format": "onnx",
+      "sizeBytes": 1901039,
+      "sha256": "3b4fccfe9ccb388a6424a0d7758e8143efe3a319a837d20d2c347b841c4caf5a",
+      "inputs": [
+        {
+          "name": "board",
+          "shape": [
+            -1,
+            3,
+            8,
+            8
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "policy",
+          "shape": [
+            -1,
+            65
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "value",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "minTier": "cpu-basic",
+      "opset": 17
+    },
+    {
+      "id": "othello-net-medium",
+      "label": "Othello net (medium)",
+      "path": "ai/othello-net-medium.onnx",
+      "format": "onnx",
+      "sizeBytes": 1901039,
+      "sha256": "2fae81ad65a97d10910a3e7b7ab503cd4abfa313a770267184806fd1f993d182",
+      "inputs": [
+        {
+          "name": "board",
+          "shape": [
+            -1,
+            3,
+            8,
+            8
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "policy",
+          "shape": [
+            -1,
+            65
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "value",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "minTier": "cpu-basic",
+      "opset": 17
+    },
+    {
+      "id": "othello-net-hard",
+      "label": "Othello net (hard)",
+      "path": "ai/othello-net-hard.onnx",
+      "format": "onnx",
+      "sizeBytes": 1901039,
+      "sha256": "7139ea42701045c317fe0fb5ed7c1095aad81829cb74733ff44f9268671be6a9",
+      "inputs": [
+        {
+          "name": "board",
+          "shape": [
+            -1,
+            3,
+            8,
+            8
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "policy",
+          "shape": [
+            -1,
+            65
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "value",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "minTier": "cpu-basic",
+      "opset": 17
     }
   ]
 }
