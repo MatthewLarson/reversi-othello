@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "reversi-othello",
   "name": "Reversi / Othello",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -307,6 +307,16 @@
       "id": "rules",
       "title": "Reversi / Othello Rules",
       "path": "rules/rules.md"
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "name": "Unscripted"
+    },
+    {
+      "id": "scripted",
+      "name": "Scripted"
     }
   ]
 }
