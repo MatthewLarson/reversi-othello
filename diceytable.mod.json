@@ -312,11 +312,14 @@
   "variants": [
     {
       "id": "standard",
-      "name": "Unscripted"
+      "name": "Unscripted",
+      "description": "Played by hand: move and flip the discs yourselves.",
+      "scripts": false
     },
     {
       "id": "scripted",
-      "name": "Scripted"
+      "name": "Scripted",
+      "description": "Only legal moves count, discs flip themselves, the score is kept — and you can play against bots."
     }
   ]
 }
