@@ -9,6 +9,7 @@
     "script": "scripts/main.js"
   },
   "assets": [
+    "ai/othello-net-easy.onnx",
     "media/cover-thumb.webp",
     "media/cover.webp",
     "media/screenshot-0.webp",
