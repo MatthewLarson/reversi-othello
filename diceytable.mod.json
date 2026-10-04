@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "reversi-othello",
   "name": "Reversi / Othello",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -342,13 +342,17 @@
     {
       "id": "standard",
       "name": "Unscripted",
-      "description": "Played by hand: move and flip the discs yourselves.",
-      "scripts": false
+      "description": "Played by hand: move and flip the discs yourselves."
     },
     {
       "id": "scripted",
       "name": "Scripted",
-      "description": "Only legal moves count, discs flip themselves, the score is kept — and you can play against bots."
+      "description": "Only legal moves count, discs flip themselves, the score is kept — and you can play against bots.",
+      "rulesEnforced": true,
+      "ranking": {
+        "draws": true,
+        "requireKernel": true
+      }
     }
   ],
   "bots": [
